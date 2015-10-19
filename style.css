@@ -1,0 +1,167 @@
+.content {
+    font-family: 'Averia Serif Libre', cursive;
+}
+h1 {
+    text-align: center;
+}
+.masthead {
+    background-image: url(img/please.jpg);
+    background-size: cover;
+    padding: 5px 0 200px 0;
+    color: #A9AEB2;
+}
+html {
+     background-color: #6A6559;   
+}
+@media all and (max-width:35em){
+* {   
+    box-sizing: border-box;
+}
+.wrapper {
+    color: #E4DCC7;   
+}
+.content {
+    font-size: 0.8rem;   
+}
+.mainnav {
+    list-style: none;
+    text-align:center;
+}
+nav li{
+    font-size: 1.7em;
+	display: list-item;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: #A3AAA8;
+}
+nav a:hover, a:active{
+	color: #E4DCC7;
+}
+img {
+    width: 97%;
+}
+footer {
+    text-align: center;   
+    background-color: #A9AEB2;
+    padding: 15px 0 15px 0;
+}
+}
+@media all and (min-width:35em) and (max-width:60em){
+* {
+    box-sizing: border-box;
+}
+.masthead {
+    padding: 5px 0 300px 0;
+}
+.content {
+    font-size: 1.0rem;   
+}
+.wrapper {
+    text-align: center;
+    margin: auto;
+    color: #E4DCC7;
+}
+.mainnav {
+    list-style: none;
+    text-align:center;
+}
+nav li{
+    font-size: 1.7em;
+	display: inline;
+    padding-right: 15px;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: #A3AAA8;
+}
+nav a:hover, a:active{
+	color: #E4DCC7;
+}
+.primary img {
+    width: 97%;
+}
+.primary {
+    float:left;
+    width:63%;
+}
+.side img {
+    width: 97%;   
+}
+.side {
+    float:right;
+    width:37%;
+    font-family: 'Averia Serif Libre', cursive;
+}
+h3 {
+    padding-bottom: 8px;
+    padding-left: 10px;
+}
+h2 {
+    padding-left: 10px;   
+}
+footer {
+    clear:both;
+    text-align: center;
+    background-color: #A9AEB2;
+    padding: 15px 0 15px 0;
+}
+p {
+    padding: 0 10px 0 10px;
+}
+}
+@media all and (min-width:60em) {
+* {
+    box-sizing: border-box;
+}
+.masthead {
+    padding: 5px 0 400px 0;
+    margin-bottom: 20px;
+}
+.wrapper {
+    color: #E4DCC7;
+}
+.content {
+    font-size: 1.2rem;
+    -webkit-column-count: 2;
+    float:left;
+    width:50%;
+}
+.mainnav {
+    float: left;
+    width: 25%;
+}
+nav li{
+    font-size: 1.7em;
+	display: list-item;
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: #A3AAA8;
+}
+nav a:hover, a:active{
+	color: #E4DCC7;
+}
+.primary img {
+    width: 95%;
+}
+.side img {
+    width: 95%;
+}
+.side {
+    font-family: 'Averia Serif Libre', cursive;
+    float:right;
+    width:25%;
+    font-size: 1.2rem;
+    padding-left: 5px;
+}
+footer {
+    clear:both;
+    text-align: center;
+    background-color: #A9AEB2;
+    padding: 15px 0 15px 0;
+}
+}
